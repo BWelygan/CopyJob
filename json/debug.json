@@ -1,0 +1,19 @@
+{
+    "globalJobSettings": {
+            "sourcePath": "E:\\tmp\\",
+            "destinationPath": "E:\\tmp\\csv",
+            "logPath": "E:\\tmp\\",
+            "logFileName": "debug",
+            "logExtension": "log",
+            "compression": "None",
+            "jobs": [
+                        {
+                            "backup": {
+                                "archiveName": "%DATE%",
+                                "includeExtension": "*.csv",
+                                "excludeExtension": ""
+                            }
+                        }
+                    ]
+    }
+}
